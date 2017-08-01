@@ -24,10 +24,10 @@
     		<td colspan="3" align="center" height="13"></td>
     	</tr>
     	<tr>
-    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000">¸ÃÇåµ¥Ã»ÓÐÊý¾Ý</font></td>
+    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000">è¯¥æ¸…å•æ²¡æœ‰æ•°æ®</font></td>
     	</tr>
     	<tr>
-    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000"><a href="<%=request.getContextPath()%>/fpages/accountList/ftl/accountList.ftl">·µ»ØÇåµ¥ÏÂÔØ</a></font></td>
+    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000"><a href="<%=request.getContextPath()%>/fpages/accountList/ftl/accountList.ftl">è¿”å›žæ¸…å•ä¸‹è½½</a></font></td>
     	</tr>
     	<tr>
     		<td colspan="3" align="center" height="23"></td>

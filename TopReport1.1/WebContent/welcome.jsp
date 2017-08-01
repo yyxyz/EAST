@@ -35,7 +35,7 @@ function submitForm()
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 <table width="695" border="0" cellpadding="0" cellspacing="0">
 	<tr>
-		<td width="695" class="location">&nbsp;&nbsp;<a href="<%=response.encodeURL("../common/welcome.jsp")%>">��ҳ</a> &gt; ��½��Ϣ</td>
+		<td width="695" class="location">&nbsp;&nbsp;<a href="<%=response.encodeURL("../common/welcome.jsp")%>">主页</a> &gt; 登陆信息</td>
 	</tr>
 	<tr>
 		<td valign="top" background="../images/bg_line_02.gif"><img
@@ -55,24 +55,24 @@ function submitForm()
 			class="table-class">
 			<TBODY>
 				<TR align="left">
-					<TD height="23" colspan="9" valign="top" nowrap class="tdTitle"><STRONG>�ҵ���Ϣ</STRONG></TD>
+					<TD height="23" colspan="9" valign="top" nowrap class="tdTitle"><STRONG>我的信息</STRONG></TD>
 				</TR>
 				<%
 				UserSessionInfo userInfo =	(UserSessionInfo) session.getAttribute("USER_SESSION_INFO");
 				%>
 				<TR align="right" valign="middle" bordercolor="#CCCCCC"
 					bgcolor="#FFFFFF" class="tdValue">
-					<TD width="17%" align="right" valign="top" nowrap>�����½ʱ�䣺</TD>
+					<TD width="17%" align="right" valign="top" nowrap>最近登陆时间：</TD>
 					<TD width="83%" colspan="2" align="left" valign="middle">&nbsp;&nbsp;<%=userInfo.getLastLoginTime()%></TD>
 				</TR>
 				<TR align="right" valign="middle" bordercolor="#CCCCCC"
 					bgcolor="#FFFFFF" class="tdValue">
-					<TD width="17%" align="right" valign="top" nowrap>����˳�ʱ�䣺</TD>
+					<TD width="17%" align="right" valign="top" nowrap>最近退出时间：</TD>
 					<TD width="83%" colspan="2" align="left" valign="middle" nowrap>&nbsp;&nbsp;<%=userInfo.getLastLogoutTime()%></TD>
 				</TR>
 				<TR align="right" valign="middle" bordercolor="#CCCCCC"
 					bgcolor="#FFFFFF" class="tdValue">
-					<TD width="17%" align="right" valign="top" nowrap>���IP��ַ��</TD>
+					<TD width="17%" align="right" valign="top" nowrap>最近IP地址：</TD>
 					<TD width="83%" colspan="2" align="left" valign="middle" nowrap>&nbsp;&nbsp;<%=userInfo.getIp()%></TD>
 				</TR>
 				
@@ -105,15 +105,15 @@ function submitForm()
 									class="table-class">
 									<tr align="left">
 										<td height="23" colspan="14" valign="top" nowrap
-											class="tdTitle"><strong>�ҵĹ�����</strong></td>
+											class="tdTitle"><strong>我的工具箱</strong></td>
 									</tr>
 									<tr align="right">
 										<td width="5%" align="center" valign="top" nowrap
 											class="tdTitle">&nbsp;</td>
 										<td width="30%" colspan="5" height="23" align="center"
-											valign="top" nowrap bgcolor="#FFFFFF" class="tdTitle"><strong>��������</strong></td>
+											valign="top" nowrap bgcolor="#FFFFFF" class="tdTitle"><strong>功能名称</strong></td>
 										<td width="65%" colspan="2" align="center" valign="middle"
-											nowrap class="tdTitle"><strong> ��������</strong></td>
+											nowrap class="tdTitle"><strong> 功能描述</strong></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -121,8 +121,8 @@ function submitForm()
 										<td width="30%" colspan="5" align="center" valign="middle"
 											nowrap><a
 											href='<%=response.encodeURL("../inquiryPrint/forcastAll.jsp")%>'
-											target="businessfrm">Ԥ����Ϣ��ѯ</a></td>
-										<td width="65%" colspan="2" align="center" valign="middle">��ʾϵͳԤ����Ϣ����������δȷ�ϣ������ϵͳ���·��������</td>
+											target="businessfrm">预警信息查询</a></td>
+										<td width="65%" colspan="2" align="center" valign="middle">显示系统预警信息和主机昨日未确认，需管理系统重新发起的任务</td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -130,8 +130,8 @@ function submitForm()
 										<td width="30%" colspan="5" align="center" valign="middle"
 											nowrap><a
 											href='<%=response.encodeURL("../inquiryPrint/workItemListQuery.do?pageIndex=-1")%>'
-											target="businessfrm">�����б���ѯ</a></td>
-										<td width="65%" colspan="2" align="center" valign="middle">��ʾ����Ա��ǰ��Ҫ�����������б�</td>
+											target="businessfrm">任务列表查询</a></td>
+										<td width="65%" colspan="2" align="center" valign="middle">显示操作员当前需要处理的任务列表</td>
 									</tr>
 									
 								</table>

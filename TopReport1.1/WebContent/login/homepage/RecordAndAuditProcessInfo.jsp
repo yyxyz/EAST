@@ -10,7 +10,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templets/easyui/themes/blue/easyui.css">
-<title>»ØÖ´½á¹û</title>
+<title>å›žæ‰§ç»“æžœ</title>
 </head>
 <body bgcolor="white" style="margin: 0px;">
 <center>
@@ -18,9 +18,9 @@
 <table width="100%" class="grouptable" cellpadding="0" cellspacing="0" border="0">
 	<thead>
 		<tr>
-			<td class="labeltd" valign=center  align="left">»ú¹¹ºÅ</td>
-			<td class="labeltd" valign=center  align="left">»ú¹¹Ãû³Æ</td>
-			<td class="labeltd" valign=center  align="left">Íê³É×´Ì¬</td>
+			<td class="labeltd" valign=center  align="left">æœºæž„å·</td>
+			<td class="labeltd" valign=center  align="left">æœºæž„åç§°</td>
+			<td class="labeltd" valign=center  align="left">å®ŒæˆçŠ¶æ€</td>
 		</tr>
 	</thead>
 	<%
@@ -42,8 +42,8 @@
 		 			<%=biExec.getBrNoName() %>
 		</td>
 		<td class="datatd" valign=center align="left" nowrap width="25%" bgcolor="<%=bgcolor %>">
-					<%if(biExec.getFinishStatus().equals("02")){ %>Î´Íê³É
-					<%} else { %>Íê³É<%} %>
+					<%if(biExec.getFinishStatus().equals("02")){ %>æœªå®Œæˆ
+					<%} else { %>å®Œæˆ<%} %>
 		</td>
 		</tr>
 		<%}%>

@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-<title>¸öÈËÊÕ²ØÉèÖÃ</title>
+<title>ä¸ªäººæ”¶è—è®¾ç½®</title>
 <%
 int row =15;
 String path = request.getContextPath();
@@ -71,8 +71,8 @@ String startNode = globalInfo.getMenuCode();
 <table>
 	<tr>
 		<td colspan="2">
-		<button class="divbutton" style="background-image: url(<%=path%>/login/leftnavg/images/button.gif);" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this);" onclick="saveFavt()"  title="±£´æÊÕ²Ø¼ĞÉèÖÃ"> ±£ ´æ </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<button class="divbutton" style="background-image: url(<%=path%>/login/leftnavg/images/button.gif);" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this);" onclick="canFavt()"> È¡ Ïû </button>
+		<button class="divbutton" style="background-image: url(<%=path%>/login/leftnavg/images/button.gif);" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this);" onclick="saveFavt()"  title="ä¿å­˜æ”¶è—å¤¹è®¾ç½®"> ä¿ å­˜ </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button class="divbutton" style="background-image: url(<%=path%>/login/leftnavg/images/button.gif);" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this);" onclick="canFavt()"> å– æ¶ˆ </button>
 		</td>
 	</tr>
 	<tr>
@@ -100,7 +100,7 @@ String startNode = globalInfo.getMenuCode();
 				%>
 				<div class="menudiv" id="div_<%=fun.getId().trim() %>" title="<%=fun.getFuncname() %>"><%=fun.getFuncname() %><input type="hidden" name="favtinput" id="favt_<%=fun.getId().trim() %>" value="<%=fun.getId().trim() %>"/></div>
 				<%} }else{%>
-				<div style="font-size: 12px;color: green;padding: 5px;text-align: center;" id="msg" class="menudiv2" >ÇëÔÚ×ó²àÑ¡Ôñ¸öÈËÊÕ²Ø¼Ğ²Ëµ¥</div>
+				<div style="font-size: 12px;color: green;padding: 5px;text-align: center;" id="msg" class="menudiv2" >è¯·åœ¨å·¦ä¾§é€‰æ‹©ä¸ªäººæ”¶è—å¤¹èœå•</div>
 				<%} %>
 			</div>
 		</td>
@@ -128,7 +128,7 @@ String startNode = globalInfo.getMenuCode();
 			var objs = document.getElementsByName("favtinput");
 			if(objs.length+1><%=row%>){
 				obj.checked = false;
-				alert("¸öÈËÊÕ²Ø¼ĞÇë²»Òª³¬¹ı<%=row%>¸ö!");
+				alert("ä¸ªäººæ”¶è—å¤¹è¯·ä¸è¦è¶…è¿‡<%=row%>ä¸ª!");
 				return false;
 			}
 
@@ -187,7 +187,7 @@ String startNode = globalInfo.getMenuCode();
 	}
 
 	function savecallback(data){
-		alert("±£´æ³É¹¦£¡");
+		alert("ä¿å­˜æˆåŠŸï¼");
 		canFavt();
 	}
 

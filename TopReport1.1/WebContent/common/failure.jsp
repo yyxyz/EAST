@@ -24,7 +24,7 @@
     		<td colspan="3" align="center" height="13"></td>
     	</tr>
     	<tr>
-    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000">ÄúµÄ²Ù×÷·¢Éú´íÎó£¡</font></td>
+    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000">æ‚¨çš„æ“ä½œå‘ç”Ÿé”™è¯¯ï¼</font></td>
     	</tr>
     	<tr>
     		<td colspan="3" align="center" height="23"></td>

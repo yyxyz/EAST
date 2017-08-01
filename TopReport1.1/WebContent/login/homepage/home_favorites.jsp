@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-<title>个人收藏夹</title>
+<title>涓汉鏀惰棌澶�</title>
 <link rel="stylesheet" type="text/css"
 	href="<%=request.getContextPath() %>/templets/easyui/themes/blue/easyui.css">
 	<style type="text/css">
@@ -42,7 +42,7 @@ for(int i=0;i<funcList.size();i++){
 %>
 <div class="menudiv" id="div_<%=fun.getId().trim() %>" style="cursor: pointer;" onclick="doIndexWork('<%=fun.getId().trim() %>','<%=fun.getFuncname() %>','<%=fun.getPagepath() %>')"  onmouseover="this.style.backgroundColor='#cce6f9'" onmouseout="this.style.backgroundColor=''" title="<%=fun.getFuncname() %>"><%=fun.getFuncname() %></div>
 <%} }else{%>
-<div style="font-size: 12px;color: green;padding: 5px;text-align: center;border: 1px solid #ededed;cursor: default;" onmouseover="this.style.backgroundColor='#ffffbe'" onmouseout="this.style.backgroundColor=''" id="msg" onclick="window.parent.maxFrm(0)">请点击设置收藏夹</div>
+<div style="font-size: 12px;color: green;padding: 5px;text-align: center;border: 1px solid #ededed;cursor: default;" onmouseover="this.style.backgroundColor='#ffffbe'" onmouseout="this.style.backgroundColor=''" id="msg" onclick="window.parent.maxFrm(0)">璇风偣鍑昏缃敹钘忓す</div>
 <%} %>
 
 </div>

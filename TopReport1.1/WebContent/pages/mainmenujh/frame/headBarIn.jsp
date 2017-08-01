@@ -78,7 +78,7 @@ body,td,th {
 				}
 			};
 			function logoutconfrim(){
-				if( confirm('È·ÈÏÒªÍË³öÏµÍ³?') ) {
+				if( confirm('ç¡®è®¤è¦é€€å‡ºç³»ç»Ÿ?') ) {
 						window.onbeforeunload = function(){};
 						window.parent.location = "<%=request.getContextPath()%>/logout.do";
 						return true;
@@ -109,22 +109,22 @@ body,td,th {
 					<span class="style1"><img src="../images/spacer.gif"
 						width="90" height="1"> <br>
 					</span>
-					<a href="/logout.do" target="_top" class="whitelink">ÍË ³ö</a>
+					<a href="/logout.do" target="_top" class="whitelink">é€€ å‡º</a>
 					-->
 					<!--
 					<a  href="#" onclick="javascript:logoutconfrim();" target="_self"
-						class="whitelink">ÍË³öÏµÍ³</a>
+						class="whitelink">é€€å‡ºç³»ç»Ÿ</a>
 					-->
 					<input type="button"
 							name="ibtn_Exit"
 							id="ibtn_Exit"
 							onClick="javascript:return logoutconfrim();"
 							src=""
-							value="ÍË³ö"
-							tip="ÍË³ö"
+							value="é€€å‡º"
+							tip="é€€å‡º"
 							class="noBorder"
 
-							alt="ÍË³ö" border="0"
+							alt="é€€å‡º" border="0"
 						style="height:16px;width:46px;" />
 
 					</TD>
@@ -135,7 +135,7 @@ body,td,th {
 								<TD align=center></TD>
 								<app:authorize menulevel="0" menuid="9910100">
 									<TD class=tilemenu><A href="left1.jsp"
-										target="left">¿Í»§¹ÜÀí</A></TD>
+										target="left">å®¢æˆ·ç®¡ç†</A></TD>
 									<TD><IMG height=23 src="../images/ic01.jpg" width=6></TD>
 								</app:authorize>
 							</TR>
@@ -148,10 +148,10 @@ body,td,th {
 							id="ibtn_Exit"
 							onClick="printPage()"
 							src=""
-							value="´òÓ¡"
-							tip="´òÓ¡"
+							value="æ‰“å°"
+							tip="æ‰“å°"
 							class="noBorder"
-							alt="ÍË³ö" border="0"
+							alt="é€€å‡º" border="0"
 						style="height:16px;width:46px;" />
 
 					</TD>

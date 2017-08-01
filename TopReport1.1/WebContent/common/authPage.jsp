@@ -21,16 +21,16 @@
 				<table width="100%" border="1" cellpadding="2" cellspacing="0"
 					class="table-class">
 					<tr class="table-title">
-						<td colspan="4">��Ȩ</td>
+						<td colspan="4">授权</td>
 					</tr>
 					<tr>
 						<TD height="23" align="right" valign="middle" nowrap
-							class="tdTitle" width="20%">��Ȩ�ţ�</TD>
+							class="tdTitle" width="20%">授权号：</TD>
 						<TD align="left" valign="middle" nowrap class="tdValue"
 							width="30%"><input type="text" name="authNo" maxlength="7"
 							size="7" /></TD>
 						<TD align="right" valign="middle" nowrap class="tdTitle"
-							width="20%">���룺</TD>
+							width="20%">密码：</TD>
 						<TD align="left" valign="middle" nowrap class="tdValue"
 							width="30%"><input type="password" name="authPasswd"
 							maxlength="6" size="6" /></TD>

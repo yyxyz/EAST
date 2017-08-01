@@ -33,9 +33,9 @@ GlobalInfo.setCurrentInstance(globalInfo);
 				<img src="<%=path %>/login/homepage/image/info.gif" border="0"/>
 				</td>
 				<td style="padding-left: 10px;line-height: 28px;font-size: 12px;">
-					<div>¹¤×÷ÈÕÆÚ£º<%=DateUtil.dateToString(globalInfo.getTxdate()) %></div>
-					<div style="color: green">µ±Ç°¹¤×÷ÈÕÆÚÒÑÖ´ÐÐ¡®Êý¾Ý´¦ÀíÍê³ÉÈ·ÈÏ¡¯²Ù×÷£¬ÒµÎñÒÑ±»Ëø¶¨£¬½«ÓÚÏÂÒ»¹¤×÷ÈÕ¿ªÆô£¡</div>
-					<div style="color: green">ÈçÓÐÒÉÎÊ£¬ÇëÁªÏµÏà¹ØÈËÔ±¡£</div>
+					<div>å·¥ä½œæ—¥æœŸï¼š<%=DateUtil.dateToString(globalInfo.getTxdate()) %></div>
+					<div style="color: green">å½“å‰å·¥ä½œæ—¥æœŸå·²æ‰§è¡Œâ€˜æ•°æ®å¤„ç†å®Œæˆç¡®è®¤â€™æ“ä½œï¼Œä¸šåŠ¡å·²è¢«é”å®šï¼Œå°†äºŽä¸‹ä¸€å·¥ä½œæ—¥å¼€å¯ï¼</div>
+					<div style="color: green">å¦‚æœ‰ç–‘é—®ï¼Œè¯·è”ç³»ç›¸å…³äººå‘˜ã€‚</div>
 				</td>
 			</tr>
 		</table>

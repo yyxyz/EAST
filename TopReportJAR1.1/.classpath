@@ -40,5 +40,29 @@
 	<classpathentry kind="lib" path="/TopReport1.1/WebContent/WEB-INF/lib/ifxjdbc.jar"/>
 	<classpathentry kind="lib" path="/TopReport1.1/WebContent/WEB-INF/lib/poi-2.5.1-final.jar"/>
 	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_6.0"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/ecj-4.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yyxyz/Software/Apache/lib/websocket-api.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

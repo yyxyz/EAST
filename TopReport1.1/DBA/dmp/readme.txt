@@ -1,15 +1,15 @@
-´ËDMPµ¼³öÓÃ»§:L_GCMS
-´ËDMPµÄ±í¿Õ¼ä:L_GCMS_TS
+æ­¤DMPå¯¼å‡ºç”¨æˆ·:L_GCMS
+æ­¤DMPçš„è¡¨ç©ºé—´:L_GCMS_TS
 
 
-³õÊ¼µÇÂ½ÓÃ»§: 99999999/huateng123
+åˆå§‹ç™»é™†ç”¨æˆ·: 99999999/huateng123
 
 
-È¨ÏÞ±í:FUNCTION_INFO
-Êý¾Ý×Öµä±í:DATA_DIC
-»ú¹¹±í:BCTL
+æƒé™è¡¨:FUNCTION_INFO
+æ•°æ®å­—å…¸è¡¨:DATA_DIC
+æœºæž„è¡¨:BCTL
 
 
 **********
-¿ª·¢Ä£Ê½ÏÂÇëÉèÖÃtomcat server²ÎÊý:
+å¼€å‘æ¨¡å¼ä¸‹è¯·è®¾ç½®tomcat serverå‚æ•°:
   -DCOM.HUATENG.PRODUCTION_MODE=false

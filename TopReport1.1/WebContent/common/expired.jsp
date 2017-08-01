@@ -15,7 +15,7 @@
       window.open("<%=request.getContextPath()%>/common/expired.jsp", "_top");
     }
 
-var secs =5; //����ʱ������
+var secs =5; //倒计时的秒数
 var URL ;
 function Load(url){
 URL =url;
@@ -48,7 +48,7 @@ if(num == 0) { window.location=URL; }
     		<td colspan="3" align="center" height="13"></td>
     	</tr>
     	<tr>
-    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000">���ĻỰ�ѹ��ڻ���Ч�������µ�½��ԭ��Ϊ����֮һ��</font></td>
+    		<td colspan="3" align="center" class="tdValue"><font color="#FF6000">您的会话已过期或无效，请重新登陆！原因为下列之一：</font></td>
     	</tr>
     	<tr>
     		<td colspan="3" align="center" height="23"></td>
@@ -57,12 +57,12 @@ if(num == 0) { window.location=URL; }
 		<td width="27%"></td>
 		<td align="left" class="tdValue">
 			<ul>
-				<li>���Ѿ������Ự��Чʱ��δ����Ӧ�÷����������ػỰ�ѹ���</li>
-				<li>ϵͳ����һ���û��Ѿ���ͬһ���û���ʶ��¼�����ػỰ����Ч</li>
-				<li>���ĻỰ��ʶΪ�ջ����û��Ự����Ϊ�գ����ػỰ����Ч</li>
+				<li>您已经超过会话有效时间未访问应用服务器，本地会话已过期</li>
+				<li>系统中另一个用户已经以同一个用户标识登录，本地会话已无效</li>
+				<li>您的会话标识为空或者用户会话数据为空，本地会话已无效</li>
 			</ul>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<label id="ShowDiv"></label>&nbsp;�����ת��&nbsp;<a href="<%=request.getContextPath()%>">��½ҳ��</a>
+			<label id="ShowDiv"></label>&nbsp;秒后跳转到&nbsp;<a href="<%=request.getContextPath()%>">登陆页面</a>
 			<script language="javascript">
 			Load("<%=request.getContextPath()%>");
 			</script>

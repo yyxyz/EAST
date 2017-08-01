@@ -11,7 +11,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templets/easyui/themes/blue/easyui.css">
-<title>回执结果</title>
+<title>鍥炴墽缁撴灉</title>
 </head>
 <body bgcolor="white">
 <%
@@ -21,31 +21,31 @@
 	ReportBackErrBean reprotBackErrBean = ReportUtils.getReportBankMsg(recId, appType, currentfile);
 %>
 <FIELDSET name='group1' style="padding: 6px;width: 90%">
-<LEGEND>回执结果</LEGEND>
+<LEGEND>鍥炴墽缁撴灉</LEGEND>
 <table width="99%" class="grouptable">
 <%
 	if (reprotBackErrBean == null) {
 
 %>
 	<tr>
-		<td class="labeltd" valign=center align="right" style="width: 20%" nowrap>回执结果</td>
-		<td class="datatd" colspan="1"  valign=center align="left" style="width: 20%" nowrap>没有查到回执结果</td>
+		<td class="labeltd" valign=center align="right" style="width: 20%" nowrap>鍥炴墽缁撴灉</td>
+		<td class="datatd" colspan="1"  valign=center align="left" style="width: 20%" nowrap>娌℃湁鏌ュ埌鍥炴墽缁撴灉</td>
 	</tr>
 </table>
 <%} else {%>
 	 <tr>
 		<td class="labeltd" valign=center align="center" style="width: 20%" nowrap>
-	 		错误类型
+	 		閿欒绫诲瀷
 	 	</td>
 	 </tr>
 	 <tr>
  	<%if(reprotBackErrBean.getErrType().equals("01")){ %>
 	 	<td class="datatd" colspan="1"  valign=center align="center" style="width: 20%" nowrap>
-	 		格式错误
+	 		鏍煎紡閿欒
 	 	</td>
  	<% } else { %>
 	 	<td class="datatd" colspan="1"  valign=center align="center" style="width: 20%" nowrap>
-	 		记录错误
+	 		璁板綍閿欒
 	 	</td>
  	<%} %>
 	</tr>
@@ -53,13 +53,13 @@
 </FIELDSET>
 
 <FIELDSET name='group2' style="padding: 6px;width: 90%">
-<LEGEND>错误详细信息</LEGEND>
-	<%if(reprotBackErrBean.getErrType().equals("01")){ //格式错误%>
+<LEGEND>閿欒璇︾粏淇℃伅</LEGEND>
+	<%if(reprotBackErrBean.getErrType().equals("01")){ //鏍煎紡閿欒%>
 	<table width="99%" class="grouptable">
 		<thead>
 			<tr>
-				<td class="labeltd" valign=center>序号</td>
-				<td class="labeltd" valign=center>错误信息</td>
+				<td class="labeltd" valign=center>搴忓彿</td>
+				<td class="labeltd" valign=center>閿欒淇℃伅</td>
 			</tr>
 		</thead>
 		<%
@@ -80,9 +80,9 @@
 	<table width="99%" class="grouptable">
 		<thead>
 			<tr>
-				<td class="labeltd" valign=center>字段英文名称</td>
-				<td class="labeltd" valign=center>字段中文名称</td>
-				<td class="labeltd" valign=center>错误信息</td>
+				<td class="labeltd" valign=center>瀛楁鑻辨枃鍚嶇О</td>
+				<td class="labeltd" valign=center>瀛楁涓枃鍚嶇О</td>
+				<td class="labeltd" valign=center>閿欒淇℃伅</td>
 			</tr>
 		</thead>
 		<%

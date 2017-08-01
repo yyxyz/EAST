@@ -66,7 +66,7 @@ function submitForm()
 									<logic:iterate id="mywork" name="cntList">
 									<tr align="right">
 										<td width="100%" colspan="8" height="23" align="center"
-											valign="top" nowrap bgcolor="#FFFFFF" class="tdTitle"><strong>����Ԥ������б�</strong></td>
+											valign="top" nowrap bgcolor="#FFFFFF" class="tdTitle"><strong>风险预警监控列表</strong></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -74,7 +74,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/menu/PLoanSysWeb/fpages/demo/ftl/LoanDueList.ftl?_cds_=0")
-											>�����ڴ���<U><bean:write name="mywork" property="cnt1"/></U>��</a></td>
+											>将到期贷款<U><bean:write name="mywork" property="cnt1"/></U>笔</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -82,7 +82,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/menu/PLoanSysWeb/fpages/demo/ftl/PostLoanTraceList.ftl?_cds_=0")
-											>����Ӧ���յ����ڴ���<U><bean:write name="mywork" property="cnt2"/></U>��</a></td>
+											>当日应催收的逾期贷款<U><bean:write name="mywork" property="cnt2"/></U>笔</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -90,7 +90,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/menu/PLoanSysWeb/fpages/demo/ftl/PostLoanUnTraceList.ftl?_cds_=0")
-											>��ʱδ���յĴ���<U><bean:write name="mywork" property="cnt3"/></U>��</a></td>
+											>超时未催收的贷款<U><bean:write name="mywork" property="cnt3"/></U>笔</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -98,7 +98,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/menu/PLoanSysWeb/fpages/demo/ftl/PostLoanMonitorList.ftl?_cds_=0")
-											>�趨�ڼ��Ĵ���<U><bean:write name="mywork" property="cnt4"/></U>��</a></td>
+											>需定期检查的贷款<U><bean:write name="mywork" property="cnt4"/></U>笔</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -106,7 +106,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/menu/PLoanSysWeb/fpages/demo/ftl/PostLoanUnMonitorList.ftl?_cds_=0")
-											>��ʱδ��ɶ��ڼ��Ĵ���<U><bean:write name="mywork" property="cnt5"/></U>��</a></td>
+											>超时未完成定期检查的贷款<U><bean:write name="mywork" property="cnt5"/></U>笔</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -114,7 +114,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/menu/PLoanSysWeb/fpages/demo/ftl/LoanGrantToday.ftl?_cds_=0")
-											>�����ѷſ�Ĵ���<U><bean:write name="mywork" property="cnt6"/></U>��</a></td>
+											>当日已放款的贷款<U><bean:write name="mywork" property="cnt6"/></U>笔</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -122,7 +122,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/fpages/customer/ftl/QueryIndvCustomerBlackListInfoList.ftl?_cds_=0")
-											>���������ͻ�<U><bean:write name="mywork" property="cnt7"/></U>��</a></td>
+											>黑名单检查客户<U><bean:write name="mywork" property="cnt7"/></U>名</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -130,7 +130,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/menu/PLoanSysWeb/fpages/custblack/ftl/queryCustBlackList.ftl?_cds_=0")
-											>���չ�ע�ͻ�<U><bean:write name="mywork" property="cnt8"/></U>��</a></td>
+											>风险关注客户<U><bean:write name="mywork" property="cnt8"/></U>名</a></td>
 									</tr>
 									<tr align="right" valign="middle" bordercolor="#CCCCCC"
 										bgcolor="#FFFFFF" class="tdValue">
@@ -138,7 +138,7 @@ function submitForm()
 										<td width="95%" colspan="7" align="left" valign="middle"
 											nowrap> <a
 											href='#' onClick = openLink("<%=request.getContextPath()%>/fpages/loancenter/ftl/matureLoanQuery.ftl?_cds_=0")
-											>�����/Ƿ������</a></td>
+											>贷款到期/欠款提醒</a></td>
 									</tr>
 								</logic:iterate>
 								</table>

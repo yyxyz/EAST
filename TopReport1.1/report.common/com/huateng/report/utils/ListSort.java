@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * ¶Ôlist½øĞĞÅÅĞò
+ * å¯¹listè¿›è¡Œæ’åº
  *
  * @author NING-PENG
  * @date 2011-6-24
@@ -33,7 +33,7 @@ public class ListSort<E> {
 					if (obj1 instanceof BigDecimal || obj1 instanceof Double || obj1 instanceof Float || obj1 instanceof Integer) {
 						double d1 = Double.valueOf(obj1.toString());
 						double d2 = Double.valueOf(obj2.toString());
-						if (sort != null && "desc".equalsIgnoreCase(sort)) {// µ¹Ğò
+						if (sort != null && "desc".equalsIgnoreCase(sort)) {// å€’åº
 							if (d1>d2) {
 								ret = -1;
 							}else if (d1<d2) {
@@ -49,7 +49,7 @@ public class ListSort<E> {
 					}else{
 						String s1 = obj1.toString();
 						String s2 = obj2.toString();
-						if (sort != null && "desc".equalsIgnoreCase(sort)) {// µ¹Ğò
+						if (sort != null && "desc".equalsIgnoreCase(sort)) {// å€’åº
 							ret = s2.compareTo(s1);
 						} else {
 							ret = s1.compareTo(s2);

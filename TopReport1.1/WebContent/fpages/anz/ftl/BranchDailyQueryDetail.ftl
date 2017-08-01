@@ -1,38 +1,31 @@
-<#import "/templets/commonQuery/CommonQueryTagMacro.ftl" as CommonQueryMacro >
-<@CommonQueryMacro.page title="¸÷ÐÐÈÕÏúÊÛÒµ¼¨²úÆ·Ã÷Ï¸²éÑ¯">
-   <table align="left">
-   <tr>
-      <td>
-      	<@CommonQueryMacro.CommonQuery id="BranchDailyQueryDetail" init="true" submitMode="current">
-      		<table width="600px">
-      			<tr>
+<#import "/templets/commonQuery/CommonQueryTagMacro.ftl" as
+CommonQueryMacro > <@CommonQueryMacro.page title="å„è¡Œæ—¥é”€å”®ä¸šç»©äº§å“æ˜Žç»†æŸ¥è¯¢">
+<table align="left">
+	<tr>
+		<td><@CommonQueryMacro.CommonQuery id="BranchDailyQueryDetail"
+			init="true" submitMode="current">
+			<table width="600px">
+				<tr>
 
-      			  <td>
-      			   <br/>
-      			  </td>
-				
+					<td><br /></td>
 
-      			</tr>
 
-      			<tr>
-      			  <td colspan="2">
-      			     <@CommonQueryMacro.DataTable id="datatable1" fieldStr="id,pname,amt" width="100%" hasFrame="true" readonly="true" />
-      			  </td>
-      			 </tr>
-      			 <tr>
-					<td colspan="2">
-					<br/>
-					<br/>
-						<@CommonQueryMacro.Button id= "btSee"/>&nbsp;&nbsp;
-						
-					</td>
 				</tr>
-				
-      		</table>
-      	</@CommonQueryMacro.CommonQuery>
-      </td>
-   </tr>
-   </table>
+
+				<tr>
+					<td colspan="2"><@CommonQueryMacro.DataTable id="datatable1"
+						fieldStr="id,pname,amt" width="100%" hasFrame="true"
+						readonly="true" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><br /> <br /> <@CommonQueryMacro.Button id=
+						"btSee"/>&nbsp;&nbsp;</td>
+				</tr>
+
+			</table> </@CommonQueryMacro.CommonQuery>
+		</td>
+	</tr>
+</table>
 <script language="javascript">
 </script>
 </@CommonQueryMacro.page>

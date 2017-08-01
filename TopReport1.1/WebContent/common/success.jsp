@@ -26,11 +26,11 @@ String type = request.getParameter("type");
     <table width="100%" height="100%">
     	<%if(type==null|| !type.equalsIgnoreCase("signout")){ %>
     	<tr height="100%">
-    		<td align="center"><font color="red">您的操作已成功！ </font></td>
+    		<td align="center"><font color="red">鎮ㄧ殑鎿嶄綔宸叉垚鍔燂紒 </font></td>
     	</tr>
     	<%}else if(type!=null && type.equalsIgnoreCase("signout")){ %>
     		<tr height="100%">
-    		<td align="center"><font color="red">用户已被签退或因已进行工作日期切换，系统将重新登录！</font></td>
+    		<td align="center"><font color="red">鐢ㄦ埛宸茶绛鹃��鎴栧洜宸茶繘琛屽伐浣滄棩鏈熷垏鎹紝绯荤粺灏嗛噸鏂扮櫥褰曪紒</font></td>
     	</tr>
     	<%} %>
     	<%
@@ -38,7 +38,7 @@ String type = request.getParameter("type");
     	if(type!=null && type.equalsIgnoreCase("approve")){
     	%>
     	<tr>
-    		<td align="right" style="padding-right: 10px;font-size: 12px;"><a href="javascript:void(0)" onclick="backApprove()"><span id="countspane"><%=count %></span>秒后自动返回，或点击链接返回</a>
+    		<td align="right" style="padding-right: 10px;font-size: 12px;"><a href="javascript:void(0)" onclick="backApprove()"><span id="countspane"><%=count %></span>绉掑悗鑷姩杩斿洖锛屾垨鐐瑰嚮閾炬帴杩斿洖</a>
     		<script type="text/javascript">
     		var ct = <%=count%>;
     		var span = document.getElementById("countspane");
@@ -59,7 +59,7 @@ String type = request.getParameter("type");
     	</tr>
     	<%}else if(type!=null && type.equalsIgnoreCase("databak")){ %>
     		<tr>
-    		<td align="right" style="padding-right: 10px;font-size: 12px;"><a href="javascript:void(0)" onclick="backout()"><span id="countspane"><%=count %></span>秒后自动返回登录页面，或点击链接返回</a>
+    		<td align="right" style="padding-right: 10px;font-size: 12px;"><a href="javascript:void(0)" onclick="backout()"><span id="countspane"><%=count %></span>绉掑悗鑷姩杩斿洖鐧诲綍椤甸潰锛屾垨鐐瑰嚮閾炬帴杩斿洖</a>
     		<script type="text/javascript">
     		var ct = <%=count%>;
     		var span = document.getElementById("countspane");
@@ -80,7 +80,7 @@ String type = request.getParameter("type");
     	</tr>
     	<%}else if(type!=null && type.equalsIgnoreCase("signout")){ %>
     		<tr>
-    		<td align="right" style="padding-right: 10px;font-size: 12px;"><a href="javascript:void(0)" onclick="backSignOut()"><span id="countspane"><%=count %></span>秒后自动返回登录页面，或点击链接返回</a>
+    		<td align="right" style="padding-right: 10px;font-size: 12px;"><a href="javascript:void(0)" onclick="backSignOut()"><span id="countspane"><%=count %></span>绉掑悗鑷姩杩斿洖鐧诲綍椤甸潰锛屾垨鐐瑰嚮閾炬帴杩斿洖</a>
     		<script type="text/javascript">
     		var ct = <%=count%>;
     		var span = document.getElementById("countspane");

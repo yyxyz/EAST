@@ -45,7 +45,7 @@ body,td,th {
 </style>
 
 <HEAD>
-<title>��ӡ��...</title>
+<title>打印中...</title>
 <link rel="stylesheet" type="text/css" href="../css/header.css">
 <link rel="stylesheet" type="text/css" href="../css/font.css">
 <script language="javascript" src="../js/ajaxUtil.js"></script>
@@ -68,7 +68,7 @@ body,td,th {
 	<table>
 		<tr>
 			<td>
-				<label id="banner" class="STYLE5">���ڴ�ӡ�����Ժ��벻Ҫ�رմ˴��ڣ���ӡ���ʱ�����Զ��ر�</label>
+				<label id="banner" class="STYLE5">正在打印，请稍候，请不要关闭此窗口，打印完成时它将自动关闭</label>
 			</td>
 		</tr>
 	</table>

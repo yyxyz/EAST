@@ -82,7 +82,7 @@ body {
 											<TR>
 												<TD nowrap height="26" class="leftmenu"
 													style="padding-left: 19"
-													onmouseup="javascript:turnit(menu_01);">�Թ��ͻ�����</TD>
+													onmouseup="javascript:turnit(menu_01);">对公客户管理</TD>
 											</TR>
 										</TBODY>
 									</TABLE>
@@ -98,7 +98,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/CreateCustCorpBasicInfo.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ�����</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户建立</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -111,7 +111,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/ModifyCustCorpInfoQry.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ�ά��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户维护</span></a></TD>
 
 											</TR>
 
@@ -123,7 +123,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/QueryCustCorpInfoQry.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ���ѯ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户查询</span></a></TD>
 
 											</TR>
 
@@ -134,7 +134,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustomerHandoverQry&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ��ƽ�</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户移交</span></a></TD>
 
 											</TR>
 
@@ -147,7 +147,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustomerAidanceManageInfo&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ�Э��ά��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户协管维护</span></a></TD>
 											</TR>
 
 
@@ -159,7 +159,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustomerFreeze&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ�����</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户冻结</span></a></TD>
 
 											</TR>
 
@@ -171,7 +171,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustomerUnfreeze&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ��ⶳ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户解冻</span></a></TD>
 
 											</TR>
 
@@ -184,7 +184,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustomerDelete&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ�ɾ��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户删除</span></a></TD>
 
 											</TR>
 
@@ -197,7 +197,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustomerResumption&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ��ָ�</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户恢复</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -210,7 +210,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_QueryCustomerBlackListInfo&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ���������ѯ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公黑名单查询</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -223,7 +223,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustomerSynchronize&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">�Թ��ͻ�ͬ��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">对公客户同步</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -237,7 +237,7 @@ body {
 											<TR>
 												<TD nowrap height="26" class="leftmenu"
 													style="padding-left: 15"
-													onmouseup="javascript:turnit(menu_02);">��Ȼ�˿ͻ�����</TD>
+													onmouseup="javascript:turnit(menu_02);">自然人客户管理</TD>
 											</TR>
 										</TBODY>
 									</TABLE>
@@ -253,7 +253,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/CreateCustIndvBasicInfo.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ�����</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户建立</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -266,7 +266,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/ModifyCustIndvInfoQry.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ�ά��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户维护</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -279,7 +279,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/QueryCustIndvInfoQry.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ���ѯ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户查询</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -292,7 +292,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_CustIndvHandoverQry&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ��ƽ�</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户移交</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -305,7 +305,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_IndvCustomerAidanceManageInfo&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ�Э��ά��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户协管维护</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -318,7 +318,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_IndvCustomerFreeze&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ�����</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户冻结</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -331,7 +331,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_IndvCustomerUnfreeze&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ��ⶳ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户解冻</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -344,7 +344,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_IndvCustomerDelete&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ�ɾ��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户删除</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -357,7 +357,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_IndvCustomerResumption&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ��ָ�</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户恢复</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -370,7 +370,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_QueryIndvCustomerBlackListInfo&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˺�������ѯ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人黑名单查询</span></a></TD>
 											</TR>
 										</app:authorize>
 										
@@ -383,7 +383,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_IndvCustomerSynchronize&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">��Ȼ�˿ͻ�ͬ��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">自然人客户同步</span></a></TD>
 											</TR>
 										</app:authorize>
 										-->
@@ -398,7 +398,7 @@ body {
 											<TR>
 												<TD nowrap height="26" class="leftmenu"
 													style="padding-left: 15"
-													onmouseup="javascript:turnit(menu_03);">������Э�����</TD>
+													onmouseup="javascript:turnit(menu_03);">合作商协议管理</TD>
 											</TR>
 										</TBODY>
 									</TABLE>
@@ -414,7 +414,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/CreateCoopInfoQry.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">������Э�齨��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">合作商协议建立</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -427,7 +427,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/fpages/customer/ftl/ModifyCoopProtInfoQry.ftl?_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">������Э��ά��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">合作商协议维护</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -440,7 +440,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_TerminateCoopProtInfoQry&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">������Э����ֹ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">合作商协议终止</span></a></TD>
 											</TR>
 										</app:authorize>
 
@@ -452,7 +452,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_RenewCoopProtInfoQry&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">������Э��ָ�</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">合作商协议恢复</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -465,7 +465,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_FreezeCoopProtInfoQry&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">������Э�鶳��</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">合作商协议冻结</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -481,7 +481,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_ThawCoopProtInfoQry&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">������Э��ⶳ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">合作商协议解冻</span></a></TD>
 
 											</TR>
 										</app:authorize>
@@ -494,7 +494,7 @@ body {
 											<TR height=20>
 												<TD class="menu_level2"><a
 													href='<%=response.encodeURL(request.getContextPath()+"/trans/CommQueryServlet?CQId=Customer_QueryCoopProtInfoQry&_cds_=0")%>'
-													target="businessfrm"><span class="leftmenubranch">������Э���ѯ</span></a></TD>
+													target="businessfrm"><span class="leftmenubranch">合作商协议查询</span></a></TD>
 
 											</TR>
 										</app:authorize>

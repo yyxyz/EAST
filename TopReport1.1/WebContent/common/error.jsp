@@ -9,7 +9,7 @@
 	<head>
 	  <html:base/>
 	  <link rel="stylesheet" type="text/css" href="./extra/lib/themes/default/extra.css">
-		<title>´íÎóÒ³Ãæ</title>
+		<title>é”™è¯¯é¡µé¢</title>
 	</head>
 	<body>	  
 	  
@@ -34,7 +34,7 @@
         </tr>
       </logic:notEmpty>
       
-      <tr><td align="center"><a href="javascript:history.back();">·µ»Ø</a></td></tr>
+      <tr><td align="center"><a href="javascript:history.back();">è¿”å›ž</a></td></tr>
       
     </table>
 	</body>
